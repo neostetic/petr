@@ -16,19 +16,19 @@ public class Main {
         switch (args[0].toLowerCase(Locale.ROOT)) {
             case "s":
                 System.out.println(a + b);
-                return;
+                break;
             case "o":
                 System.out.println(a - b);
-                return;
+                break;
             case "n":
                 System.out.println(a * b);
-                return;
+                break;
             case "d":
                 System.out.println(a / b);
-                return;
+                break;
             default:
                 System.out.println("Undefined");
-                return;
+                break;
         }
     }
 
